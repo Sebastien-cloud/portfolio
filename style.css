@@ -8,6 +8,11 @@ a {
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+
+}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -15,4 +20,23 @@ a {
 
 .spaceBetween{
     justify-content: space-between;
+}
+
+.aligncenter{
+    align-items: center;
+}
+
+header{
+    padding: 45px;
+    width: 100%;
+}
+
+header nav{
+    width: 35%;
+}
+
+.container{ /*test*/
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
 }
