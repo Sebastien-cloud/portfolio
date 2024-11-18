@@ -6,6 +6,7 @@
 
 body{
     color: black;
+    background-color: rgb(110, 102, 102);
 }
 
 h2{
@@ -35,6 +36,9 @@ li{
     justify-content: space-between;
 }
 
+.center{
+    justify-content: center;
+}
 .aligncenter{
     align-items: center;
 }
@@ -43,9 +47,18 @@ li{
     text-align: center;
 }
 
+.btn {
+    background-color: #f4e925bf;
+    padding: 4px 6px;
+    border-radius: 10px;
+    font-size: 1rem;
+    color:  rgb(110, 102, 102);
+    text-decoration: none;
+}
+
 
 header{
-    padding: 45px;
+    padding: 35px;
     width: 100%;
     position: sticky;
     top:0;
