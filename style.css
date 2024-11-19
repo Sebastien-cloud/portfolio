@@ -39,6 +39,11 @@ li{
 .center{
     justify-content: center;
 }
+
+.gap{
+    gap: 45px;
+}
+
 .aligncenter{
     align-items: center;
 }
@@ -88,6 +93,7 @@ header nav{
 /*section présentation compétences*/
 .widthP{
     width: 80%;
+    font-size: 20px;
 }
 
 .imagePresentation{
