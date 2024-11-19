@@ -61,6 +61,13 @@ li{
     text-decoration: none;
 }
 
+.colorP{
+    background-color: orange;
+    color: black;
+    border-radius: 30px;
+    width: 40%;
+}
+
 
 header{
     padding: 35px;
