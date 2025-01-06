@@ -108,3 +108,10 @@ header nav{
     height: 100px;
     object-fit:contain;
 }
+
+@media all and(max-width: 500px){
+    .small100{
+        width: 100%;
+        padding: 16px;
+    }
+}
