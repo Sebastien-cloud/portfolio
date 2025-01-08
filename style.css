@@ -5,106 +5,26 @@
 }
 
 body{
-    color: black;
-    background-color: rgb(110, 107, 102);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
-h2{
-    text-align: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    font-weight: 700;
-    font-size: 32px;
-    color:black
+
+/*Section cards*/
+.containerVisible {
+    /*conteneur general*/
+    width: 70%;
+    overflow-x: scroll;
 }
 
-a {
-    text-decoration: none;
-}
-
-li{
-    list-style: none;
-
-}
-
-.flex{
+.containerCards { /*conteneur des cards*/
     display: flex;
-    flex-wrap: wrap;
+    width: max-content;
+    gap: 15px;
 }
 
-.spaceBetween{
-    justify-content: space-between;
-}
-
-.center{
-    justify-content: center;
-}
-
-.gap{
-    gap: 45px;
-}
-
-.aligncenter{
-    align-items: center;
-}
-
-.textCenter{
-    text-align: center;
-}
-
-.btn {
-    background-color: #f4e925bf;
-    padding: 4px 6px;
-    border-radius: 10px;
-    font-size: 1rem;
-    color:  rgb(110, 102, 102);
-    text-decoration: none;
-}
-
-.colorP{
-    background-color: orange;
-    color: black;
-    border-radius: 30px;
-    width: 40%;
-}
-
-
-header{
-    padding: 35px;
-    width: 100%;
-    position: sticky;
-    top:0;
-    z-index: 1;
-    background-color: rgb(81, 77, 77);
-}
-
-header nav{
-    width: 35%;
-}
-
-.container{ /*test*/
-    max-width: 800px;
-    width: 100%;
-    margin: auto;
-}
-
-/*section projet*/
-
-
-.imageTaille{
+.cardProject { /*cards des projets*/
     width: 300px;
-    height: 300px;
-    object-fit:contain;
-}
-
-/*section présentation compétences*/
-.widthP{
-    width: 80%;
-    font-size: 20px;
-}
-
-.imagePresentation{
-    width: 100px;
-    height: 100px;
-    object-fit:contain;
+    height: 300px;/*a suprimer une fois que le contenu est remplit en HTML pour que la hauteur de la carte s'adapte au contenu */
+    background-color: #cd2626;
 }
